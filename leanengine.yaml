@@ -1,0 +1,6 @@
+runtime: java
+install:
+  - {use: 'default'}
+build:
+  - ./gradlew build
+run: java -server -jar /home/leanengine/app/build/libs/hooks-0.0.1-SNAPSHOT.jar
